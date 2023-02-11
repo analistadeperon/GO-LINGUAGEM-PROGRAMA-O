@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	resultado := multiplicacao(10, 2)
+	fmt.Println(resultado)
+}
+
+func multiplicacao(num1 int, num2 int) int {
+	return num1 * num2
+}
+
